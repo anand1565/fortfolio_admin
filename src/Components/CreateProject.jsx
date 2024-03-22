@@ -80,17 +80,6 @@ const CreateProject = () => {
               placeholder="Skills"
               value={data.skills}
             />
-            {/* <div className="my-[1vw]">
-              <button
-                onClick={AddSkills}
-                className="inline-block border-2 bg-blue-400 px-2 border-2 border-zinc-500 rounded-md"
-              >
-                Add
-              </button>
-              <button className="inline-block mx-5 bg-blue-400 border-2 border-zinc-500  px-2 rounded-md">
-                Remove
-              </button>
-            </div> */}
           </div>
           <div>
             <label htmlFor="startdate">Start Date</label>
